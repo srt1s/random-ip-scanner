@@ -1,0 +1,96 @@
+﻿Tarih,IP,Port,Protokol,Durum Kodu,Durum Aciklama,Sayfa Basligi,Web Sunucusu,URL
+2026-11-04 21:35:10,13.209.241.67,80,HTTP,200,OK,Welcome to nginx!,nginx/1.18.0,http://13.209.241.67/
+2026-11-04 21:35:11,175.201.102.229,80,HTTP,200,OK,,nginx,http://175.201.102.229/
+2026-11-04 21:35:20,8.137.36.193,80,HTTP,200,OK,Learn Claude Code 中文教程,nginx/1.14.1,http://8.137.36.193/
+2026-11-04 21:35:24,149.19.44.17,80,HTTP,200,OK,Page Restricted,iboss cloud,http://149.19.44.17/
+2026-11-04 21:35:32,185.132.65.148,80,HTTP,200,OK,STARFACE VoIP Software,,http://185.132.65.148/
+2026-11-04 21:35:41,171.234.34.242,80,HTTP,200,OK,,webserver,http://171.234.34.242/
+2026-11-04 21:35:45,98.224.249.237,80,HTTP,200,OK,,,https://98.224.249.237/
+2026-11-04 21:35:53,207.60.45.202,80,HTTP,200,OK,404 Not Found,nginx,http://207.60.45.202/
+2026-11-04 21:36:01,170.64.235.176,80,HTTP,200,OK,Coming Soon - flame.fleurrozet.com,,http://170.64.235.176/
+2026-11-04 21:36:14,5.39.123.126,80,HTTP,200,OK,Log in,mbCONNECT24,https://5.39.123.126/portal/index.php
+2026-11-04 21:36:20,216.252.233.84,80,HTTP,200,OK,,Apache,http://216.252.233.84/
+2026-11-04 21:36:25,171.250.43.215,80,HTTP,200,OK,F670Y,,https://171.250.43.215/
+2026-11-04 21:36:41,219.118.199.55,80,HTTP,403,Forbidden,403 Forbidden,Apache,http://219.118.199.55/
+2026-11-04 21:37:02,165.22.89.150,80,HTTP,200,OK,Maison dix huit | Modern Coffee,nginx/1.28.3 (Ubuntu),https://165.22.89.150/
+2026-11-04 21:37:14,3.160.22.160,80,HTTP,403,Forbidden,ERROR: The request could not be satisfied,CloudFront,http://3.160.22.160/
+2026-11-04 21:37:18,3.165.101.116,80,HTTP,403,Forbidden,ERROR: The request could not be satisfied,CloudFront,http://3.165.101.116/
+2026-11-04 21:37:21,195.160.221.162,80,HTTP,200,OK,DoramTV дорамы с русской озвучкой,nginx,http://195.160.221.162/
+2026-11-04 21:37:21,220.133.23.199,80,HTTP,200,OK,index,APPWebs/,http://220.133.23.199/
+2026-11-04 21:37:35,144.249.190.47,80,HTTP,403,Forbidden,403 Forbidden,rdwr,https://144.249.190.47/
+2026-11-04 21:37:36,79.140.243.126,80,HTTP,403,Forbidden,403 Forbidden,Web server,http://79.140.243.126/
+2026-11-04 21:37:39,176.97.99.65,80,HTTP,403,Forbidden,403 Forbidden,Web server,http://176.97.99.65/
+2026-11-04 21:37:43,199.166.6.55,80,HTTP,200,OK,,Apache/2.4.6 (CentOS),http://199.166.6.55/
+2026-11-04 21:38:13,193.85.146.5,80,HTTP,200,OK,MultiCash On 4.0,,https://mc.csast.csas.cz:8757/mco/login?ReturnUrl=/mco/consent?audience%3Dhttps%253A%252F%252Fmc.csast.csas.cz%253A8734%26client_id%3DMCON%26scope%3DAll%2520openid%26response_type%3Dcode%26redirect_uri%3Dhttps%253A%252F%252F193.85.146.5%252Fapp%252Fauthentication%252FremoteLogin%26state%3DCfDJ8HQm8GFl7B1Mo42kvBI3ulxsw84gcauNOTx6MBuFhwbUQ9qUAnNAr0-RBiZb2mWgvftgz80rAYUefDDjbQXfe5ADLNy8zbJNYhzQD5vNI9h9F1Bnnna08OM2k8iXOugZykQh85yAdNOp892J0kq_O-XZ44HBuar2rweM6C_bS2Ns-tRhyKH6rf-rLZ4HqBTD4-K_GYGvynC3fp6R8saO1gUjnTZsAx1QRsJaoWNwvC65uLG869wo6EIkqeGjiyPdlHT1rpqBDyH-vDXS7EYP-fQ%26theme%3Dlight
+2026-11-04 21:38:15,166.75.64.218,80,HTTP,200,OK,404 Not Found,nginx,http://166.75.64.218/
+2026-11-04 21:38:18,5.159.49.195,80,HTTP,200,OK,,nginx,http://5.159.49.195/
+2026-11-04 21:38:20,168.76.92.30,80,HTTP,200,OK,404 Not Found,nginx,http://168.76.92.30/
+2026-11-04 21:38:35,188.165.35.135,80,HTTP,200,OK,Création Site Internet à partir de 29 euros/mois,Apache,http://www.communication-pro.fr/
+2026-11-04 21:38:35,156.244.110.76,80,HTTP,403,Forbidden,403 Forbidden,nginx,http://156.244.110.76/
+2026-11-04 21:39:01,46.255.16.57,80,HTTP,200,OK,Welcome | Monitor Netpower,PRTG,https://46.255.16.57/index.htm
+2026-11-04 21:39:04,189.15.143.180,80,HTTP,200,OK,Index,Hikvision-Webs,http://189.15.143.180/index.asp
+2026-11-04 21:39:07,209.141.18.50,80,HTTP,200,Ok,UISP Fiber - Login,micro_httpd,http://209.141.18.50/login.html
+2026-11-04 21:39:18,191.252.113.242,80,HTTP,200,OK,Apache2 Ubuntu Default Page: It works,Apache/2.4.7 (Ubuntu),http://191.252.113.242/
+2026-11-04 21:39:23,145.223.89.212,80,HTTP,403,Forbidden,403 Forbidden,LiteSpeed,http://145.223.89.212/
+2026-11-04 21:39:24,170.85.154.24,80,HTTP,200,OK,Welcome To Zscaler Directory Authentication,Zscaler/6.2,https://gateway.zscalertwo.net/auT?origurl=http://170.85.154.24/&_ordtok=7VZ3WV3BrJK3NDNvFFHTNZjTQN
+2026-11-04 21:39:27,3.24.4.14,80,HTTP,200,OK,CBORD - SignIn,Kestrel,https://3.24.4.14/sign-in
+2026-11-04 21:39:31,125.241.44.121,80,HTTP,200,OK,NVR,,https://125.241.44.121
+2026-11-04 21:39:46,165.225.194.14,80,HTTP,200,OK,Welcome To Zscaler Directory Authentication,Zscaler/6.2,https://gateway.zscaler.net/auT?origurl=http://165.225.194.14/&_ordtok=MKW3WV347sWMDtKLbbR7n7DSZR
+2026-11-04 21:39:53,185.255.194.233,80,HTTP,200,OK,Subcribe and Anti-Spam and Privacy for 185.255.194.233,Apache/2.2.15 (CentOS),http://185.255.194.233/
+2026-11-04 21:39:56,104.25.193.109,80,HTTP,403,Forbidden,,cloudflare,http://104.25.193.109/
+2026-11-04 21:40:02,121.40.163.121,80,HTTP,200,OK,,Apache,http://121.40.163.121/
+2026-11-04 21:40:11,3.238.167.111,80,HTTP,200,OK,,,http://3.238.167.111/
+2026-11-04 21:40:12,178.107.165.132,80,HTTP,401,Unauthorized,,AmazonS3/b2,http://178.107.165.132/
+2026-11-04 21:40:20,217.70.191.199,80,HTTP,200,OK,,Apache,http://217.70.191.199/
+2026-11-04 21:40:32,194.107.112.141,80,HTTP,200,OK,Tutungerie Galati | Totul despre fumat si tutungerii,,https://tutungerie-galati.ro/
+2026-11-04 21:41:06,218.145.226.114,80,HTTP,200,OK,main page,fwebserver,http://218.145.226.114/
+2026-11-04 21:41:08,190.108.38.1,80,HTTP,200,OK,RouterOS,,http://190.108.38.1/
+2026-11-04 21:41:15,218.247.90.37,80,HTTP,403,Forbidden,403 Forbidden,wts/1.7.4,http://218.247.90.37/
+2026-11-04 21:41:21,101.126.77.218,80,HTTP,403,Forbidden,403 Forbidden,nginx,http://101.126.77.218/
+2026-11-04 21:41:23,4.232.185.31,80,HTTP,200,OK,Agency,nginx/1.31.2,http://4.232.185.31/brand/
+2026-11-04 21:41:35,130.237.73.80,80,HTTP,200,OK,Poly,nginx,https://130.237.73.80/login.html
+2026-11-04 21:41:48,212.2.202.72,80,HTTP,200,OK,IIS Windows Server,Microsoft-IIS/10.0,http://212.2.202.72/
+2026-11-04 21:42:03,178.62.48.13,80,HTTP,403,Forbidden,,nginx,http://178.62.48.13/
+2026-11-04 21:42:09,200.174.187.115,80,HTTP,200,OK,Apache Tomcat/8.5.27,,https://200.174.187.115/
+2026-11-04 21:42:11,131.161.125.110,80,HTTP,200,OK,RouterOS,,http://131.161.125.110/
+2026-11-04 21:42:25,195.189.227.145,80,HTTP,200,OK,Softcenter Mobile Apps,Apache/2.4.62 (CentOS Stream) OpenSSL/3.5.1,http://195.189.227.145/
+2026-11-04 21:42:25,167.172.103.21,80,HTTP,200,OK,AMAZE,nginx/1.14.0 (Ubuntu),https://167.172.103.21/
+2026-11-04 21:42:29,202.184.68.161,80,HTTP,200,OK,,,http://202.184.68.161/
+2026-11-04 21:42:40,108.157.214.6,80,HTTP,403,Forbidden,ERROR: The request could not be satisfied,CloudFront,http://108.157.214.6/
+2026-11-04 22:09:58,8.129.19.27,80,HTTP,200,OK,AquaFlow - 饮用水订单智能录入系统,nginx/1.20.1,http://8.129.19.27/
+2026-11-04 22:10:00,188.128.197.213,80,HTTP,403,Forbidden,403 Oops!,nginx,http://188.128.197.213/
+2026-11-04 22:10:03,178.32.101.201,80,HTTP,200,OK,,Apache,http://178.32.101.201/
+2026-11-04 22:10:05,3.167.113.23,80,HTTP,403,Forbidden,ERROR: The request could not be satisfied,CloudFront,http://3.167.113.23/
+2026-11-04 22:13:14,81.199.245.94,80,HTTP,200,OK,,web,http://81.199.245.94/
+2026-11-04 22:13:29,115.190.140.130,80,HTTP,403,Forbidden,403 Forbidden,nginx,http://115.190.140.130/
+2026-11-04 22:13:33,110.77.154.73,80,HTTP,403,Forbidden,403 Forbidden,,http://110.77.154.73/
+2026-11-04 22:13:36,179.60.190.254,80,HTTP,200,OK,,,http://179.60.190.254/
+2026-11-04 22:58:32,173.249.32.206,80,HTTP,401,Unauthorized,401 Authorization Required,cloudflare,https://hunter.next2b.com.br/
+2026-11-04 22:58:34,52.84.202.42,80,HTTP,403,Forbidden,ERROR: The request could not be satisfied,CloudFront,http://52.84.202.42/
+2026-11-04 22:58:41,5.75.130.152,80,HTTP,200,OK,Welcome to nginx!,nginx/1.24.0 (Ubuntu),http://5.75.130.152/
+2026-11-04 22:58:51,170.130.5.48,80,HTTP,403,Forbidden,403 Forbidden,nginx,http://170.130.5.48/
+2026-11-04 22:59:10,3.161.114.246,80,HTTP,403,Forbidden,ERROR: The request could not be satisfied,CloudFront,http://3.161.114.246/
+2026-11-04 22:59:11,162.14.125.143,80,HTTP,200,OK,Sub2API - AI API Gateway,nginx,https://162.14.125.143:50000/
+2026-11-04 22:59:13,195.123.225.188,80,HTTP,200,OK,Welcome to nginx!,nginx,http://195.123.225.188/
+2026-11-04 22:59:14,202.51.14.145,80,HTTP,200,OK,Web Server's Default Page,Apache,http://202.51.14.145/
+2026-11-04 22:59:16,178.210.85.85,80,HTTP,200,OK,Ассоциация эндокринологов Санкт-Петербурга,nginx/1.30.6,https://178.210.85.85/
+2026-11-04 23:37:01,18.153.128.195,80,HTTP,401,Unauthorized,401 Authorization Required,nginx/1.24.0 (Ubuntu),http://18.153.128.195/
+2026-11-04 23:37:09,193.192.209.248,80,HTTP,401,Not Authorized,401 Not Authorized,Rapid Logic/1.1,http://193.192.209.248/
+2026-11-04 23:37:13,3.168.58.6,80,HTTP,403,Forbidden,ERROR: The request could not be satisfied,CloudFront,http://3.168.58.6/
+2026-11-04 23:37:23,52.86.223.135,80,HTTP,200,OK,,awselb/2.0,https://52.86.223.135/
+2026-11-04 23:37:45,209.38.12.66,80,HTTP,200,OK,"Leaders of Today | Scholarships, Fellowships & Grants",nginx,https://www.leadersoftoday.com/
+2026-11-04 23:37:53,202.221.128.40,80,HTTP,401,Authorization Required,401 Authorization Required,Apache,https://202.221.128.40/
+2026-11-04 23:38:09,5.135.139.172,80,HTTP,403,Forbidden,403 Forbidden,Apache,https://5.135.139.172/
+2026-11-04 23:38:11,157.245.96.145,80,HTTP,200,OK,Apache2 Debian Default Page: It works,Apache/2.4.63 (Ubuntu),http://157.245.96.145/
+2026-11-04 23:38:16,188.59.108.154,80,HTTP,200,OK,,nginx,http://188.59.108.154/
+2026-11-04 23:38:21,3.171.76.10,80,HTTP,403,Forbidden,ERROR: The request could not be satisfied,CloudFront,http://3.171.76.10/
+2026-11-04 23:38:41,34.168.75.195,80,HTTP,403,Forbidden,403 Forbidden,nginx/1.22.1,http://34.168.75.195/
+2026-11-04 23:39:26,104.16.166.93,80,HTTP,403,Forbidden,,cloudflare,http://104.16.166.93/
+2026-11-04 23:39:30,171.225.230.4,80,HTTP,200,OK,F671Y,,https://171.225.230.4/
+2026-11-04 23:39:38,194.164.62.120,80,HTTP,200,OK,Web Server's Default Page,Apache,http://194.164.62.120/
+2026-11-04 23:39:53,199.232.69.37,80,HTTP,200,OK,"Noticias de �ltima hora, programas y series de televisi�n - RTVE.es",RTVE Server,https://www.rtve.es
+2026-11-04 23:40:04,103.197.207.89,80,HTTP,200,OK,,Hydra/0.1.8,http://103.197.207.89/
+2026-11-04 23:40:15,196.210.191.138,80,HTTP,200,OK,,,http://196.210.191.138/
+2026-11-04 23:40:16,45.243.216.83,80,HTTP,200,OK,ZXHN H108N V2.5,Mini web server 1.0 ZTE corp 2005.,http://45.243.216.83/
+2026-11-04 23:40:33,51.38.184.93,80,HTTP,200,OK,Artisan chocolatier à la Rochelle - Criollos Thomas Pontacq,Apache/2.4.58 (Ubuntu),https://www.criollos.fr/
+2026-11-04 23:40:39,194.247.34.202,80,HTTP,200,OK,Welcome to nginx!,nginx/1.30.4,http://194.247.34.202/
