@@ -1,57 +1,38 @@
-# Rastgele IP Web Tarayicisi (Random IP Discovery Tool)
+# Rastgele IP Web Tarayicisi (Random IP Discovery Studio)
 
-Internet uzerindeki rastgele kamuya acik (public) IPv4 adreslerini yuksek hiz ve eszamanlilik ile tarayarak acik web sunucularini, yonetim panellerini ve siteleri tespit eden Python tabanli kesif araci.
+Internet uzerindeki rastgele kamuya acik (public) IPv4 adreslerini yuksek hiz ve eszamanlilik ile tarayarak acik web sunucularini, yonetim panellerini ve siteleri tespit eden Python / PyQt6 tabanli kesif araci.
 
 ---
 
 ## Ozellikler
 
-- Akilli IP Uretimi: Yerel ag (10.x.x.x, 192.168.x.x, 127.x.x.x), multicast ve ozel ayrilmis IP bloklarini otomatik olarak filtreler. Yalnizca genel (public) IP adreslerini sorgular.
-- Durum Kodu Filtreleme:
-  - 404 Not Found ve Timeout (Zaman Asimi): Hedef otomatik olarak atlanir ve siradaki IP adresine gecilir.
-  - 200 OK (Aktif Web Sitesi): Adres aninda tespit edilir, sayfa basligi (`<title>`) ve sunucu banner bilgisi (`Server: Apache, Nginx, IIS vb.`) ayristirilir.
-  - 403 Forbidden (Erisim Kisitli / Yonetim Paneli): Olasilikla admin panelleri veya yetkilendirme isteyen servisler listeye ve kayitlara dahil edilir.
-- Coklu Calisma Modu:
-  - Modern Grafiksel Kullanici Arayuzu (GUI - CustomTkinter destegiyle).
-  - Terminal / Konsol Modu (CLI - Rich tablo gorunumu destegiyle).
-- Kayit ve Disa Aktarim:
-  - `bulunan_ipler.txt`: Okunabilir detayli metin gunlugu.
-  - `bulunan_ipler.csv`: Excel ve diger veri analizi araclariyla tam uyumlu, UTF-8 BOM kodlamali CSV tablosu.
-- Dogrudan Tarayicida Acma:
-  - Bulunan herhangi bir hedefe cift tiklayarak varsayilan tarayicida acabilme.
-  - Arayuz uzerinden "200 OK'leri Tarayicida Ac" secenegi acildiginda bulunan her aktif siteyi otomatik yeni sekmede acma destegi.
-
----
-
-## Gereksinimler
-
-- Python 3.9 veya daha yuksek bir surum
-- Gerekli Python paketleri (`requirements.txt` icerisinde listelenmistir)
-
----
-
-## Kurulum
-
-1. Repoyu bilgisayariniza klonlayin:
-```bash
-git clone https://github.com/srt1s/random-ip-scanner.git
-cd random-ip-scanner
-```
-
-2. Bagimliliklari yukleyin:
-```bash
-pip install -r requirements.txt
-```
+- **Modern PyQt6 Masaustu Arayuzu (Konsolsuz .exe Destekli)**:
+  - Karanlik tema (Obsidian Slate), canli radar animasyonu ve gercek zamanli `IP/sn` hiz grafigi.
+  - Sanallastirilmis yuksek performansli sonuc tablosu (on binlerce kayitta sifir takilma), siralama, anlik arama ve durum/bolge filtreleme.
+  - Dahili **Kayit Arsivi (CSV)** sekmesi ile daha once bulunan siteleri goruntuleme, arama ve tarayicida acma.
+  - Canli renkli telemetri akisi (`Canli Akis`), duraklatma ve filtreleme.
+- **Akilli IP & Bolge Yonetimi**:
+  - **Turkiye Odakli Tarama**: Turkiye'ye tahsis edilmis (RIPE NCC) **16.8 Milyon+** genel IPv4 adresi uzerinden secim yapar (`tr_ip_ranges.txt`).
+  - **Global Mod**: Tek tikla tum dunya genel IP uzayina gecebilir.
+  - Yerel ag (`10.x`, `192.168.x`, `127.x`, `172.16.x`) ve ayrilmis bloklar otomatik olarak elenir.
+- **Durum Kodu Filtreleme & Kayit**:
+  - `200 OK`: Acik web siteleri sayfa basligi (`<title>`) ve sunucu (`Server`) bilgisiyle kaydedilir.
+  - `403 Forbidden` ve `401 Unauthorized`: Yonetim panelleri veya yetki isteyen servisler istege bagli olarak kaydedilir.
+  - `404 Not Found` ve `Timeout`: Otomatik atlanir.
+- **Disa Aktarim**:
+  - `bulunan_ipler.txt`: Okunabilir metin gunlugu.
+  - `bulunan_ipler.csv`: Excel uyumlu UTF-8 BOM CSV kaydi.
 
 ---
 
 ## Kullanim
 
-### Yontem 1: Tek Tikla Baslatma (Windows)
-Klasordeki `start.bat` dosyasina cift tiklayarak grafik arayuzu baslatabilirsiniz.
+### Yontem 1: Derlenmis Konsolsuz Uygulama (Onerilen)
+Klasordeki `RandomIPScanner.exe` dosyasina cift tiklayarak siyah konsol penceresi acilmadan dogrudan masaustu uygulamasini baslatabilirsiniz. Bulunan sonuclar `.exe` dosyasinin bulundugu klasordeki `bulunan_ipler.txt` ve `bulunan_ipler.csv` dosyalarina yazilir.
 
-### Yontem 2: Grafik Arayuzu (GUI)
+### Yontem 2: Python ile Calistirma
 ```bash
+pip install -r requirements.txt
 python main.py
 ```
 
@@ -62,12 +43,11 @@ python main.py --cli
 
 ---
 
-## Arayuz Ayarlari ve Parametreler
+## Derleme (PyInstaller ile Konsolsuz .exe)
 
-- Eszamanlilik (Concurrency): Ayni anda paralel taranacak IP sayisi (Onerilen: 30 - 100).
-- Zaman Asimi (Timeout): Yanit vermeyen sunuculardan ne kadar sure sonra vazgecilecegi (Onerilen: 1.5 - 2.0 saniye).
-- Protokol: HTTP (Port 80), HTTPS (Port 443) veya her ikisi.
-- User-Agent Rotasyonu: Isteklerin engellenmemesi icin yaygin tarayici basliklari otomatik uygulanir.
+```powershell
+pyinstaller --noconfirm --clean --onefile --windowed --name "RandomIPScanner" --icon "assets/app_icon.ico" --add-data "tr_ip_ranges.txt;." --add-data "assets;assets" gui_app.py
+```
 
 ---
 
